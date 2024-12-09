@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #444;
+}
+
+/* Navigation */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+thead {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Buttons */
+button, a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover, a:hover {
+    background-color: #0056b3;
+    
+}
+
+/* Forms */
+/* form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+} */
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+    
+}
+
+.item-details{
+width: 50%;
+margin: 20px auto;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 5px;
+background: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+text-align: justify;
+}
+
+.add {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+.delete-form {
+    display: inline-flex; 
+    margin: 5px;           
+    text-align: center;
+}
+
+.edit {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
